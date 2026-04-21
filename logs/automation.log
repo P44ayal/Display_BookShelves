@@ -1,0 +1,114 @@
+2026-04-21 17:29:31 [main] INFO  BaseTest - TestNG setup: launching browser
+2026-04-21 17:29:31 [main] INFO  DriverFactory - Initializing ChromeDriver
+2026-04-21 17:29:33 [main] INFO  DriverFactory - Browser launched and maximized
+2026-04-21 17:29:36 [main] INFO  BookshelvesPage - ************ TEST CASE 1: BOOKSHELVES ************
+2026-04-21 17:29:36 [main] INFO  BookshelvesPage - Searching for Bookshelves
+2026-04-21 17:29:36 [main] INFO  BookshelvesPage - Applying filters: Storage Type = Open, Max Price = 15000
+2026-04-21 17:29:37 [main] INFO  BookshelvesPage - Printing first three bookshelf products
+2026-04-21 17:29:38 [main] INFO  BookshelvesPage - Product: Paxton Bookshelf in Amber Walnut Finish | Price: ₹7,999
+2026-04-21 17:29:38 [main] INFO  BookshelvesPage - Product: Tetris Solid Wood Bookshelf in Walnut Finish | Price: ₹6,999
+2026-04-21 17:29:38 [main] INFO  BookshelvesPage - Product: Amy Bookshelf in Columbian Walnut Finish | Price: ₹1,985
+2026-04-21 17:29:38 [main] INFO  TestFailureListener - ✅ TEST PASSED: verifyBookshelves
+2026-04-21 17:29:38 [main] INFO  BaseTest - TestNG teardown: closing browser
+2026-04-21 17:29:38 [main] INFO  DriverFactory - Closing browser
+2026-04-21 17:29:40 [main] INFO  BaseTest - TestNG setup: launching browser
+2026-04-21 17:29:40 [main] INFO  DriverFactory - Initializing ChromeDriver
+2026-04-21 17:29:42 [main] INFO  DriverFactory - Browser launched and maximized
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - ************ TEST CASE 2: SOFA MENU ************
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Hovering on Sofas & Recliners menu
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Fabric Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Customizable Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Wooden Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Leatherette Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Leather Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: L Shaped Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: 3 Seater Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: 2 Seater Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: 1 Seater Sofas
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: 1 Seater Recliners
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: 2 Seater Recliners
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: 3 Seater Recliners
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Motorized Recliners
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Sofa Cum Beds
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Diwans
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Oasis Collection
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Terra Collection
+2026-04-21 17:29:45 [main] INFO  SofaMenuPage - Sofa Category: Astra Collection
+2026-04-21 17:29:45 [main] INFO  TestFailureListener - ✅ TEST PASSED: verifySofaMenu
+2026-04-21 17:29:45 [main] INFO  BaseTest - TestNG teardown: closing browser
+2026-04-21 17:29:45 [main] INFO  DriverFactory - Closing browser
+2026-04-21 17:29:47 [main] INFO  BaseTest - TestNG setup: launching browser
+2026-04-21 17:29:47 [main] INFO  DriverFactory - Initializing ChromeDriver
+2026-04-21 17:29:49 [main] INFO  DriverFactory - Browser launched and maximized
+2026-04-21 17:29:51 [main] INFO  GiftCardPage - ************ TEST CASE 3: GIFT CARD ************
+2026-04-21 17:29:51 [main] INFO  GiftCardPage - Loading test data from Excel
+2026-04-21 17:29:52 [main] INFO  GiftCardPage - Clicking Gift Card link
+2026-04-21 17:29:54 [main] INFO  GiftCardPage - Gift Card URL: https://urbanladder.woohoo.in/en-gb/digital/urban-ladder-e-gift-card
+2026-04-21 17:29:54 [main] INFO  GiftCardPage - Gift Card Title: Gift Cards
+2026-04-21 17:29:55 [main] ERROR GiftCardPage - Validation Error Message: Enter valid Email ID.
+2026-04-21 17:29:55 [main] INFO  TestFailureListener - ✅ TEST PASSED: verifyGiftCard
+2026-04-21 17:29:55 [main] INFO  BaseTest - TestNG teardown: closing browser
+2026-04-21 17:29:55 [main] INFO  DriverFactory - Closing browser
+2026-04-21 17:30:14 [main] INFO  Hooks - ===== STARTING SCENARIO: Verify first three bookshelves =====
+2026-04-21 17:30:14 [main] INFO  BaseTest - TestNG setup: launching browser
+2026-04-21 17:30:14 [main] INFO  DriverFactory - Initializing ChromeDriver
+2026-04-21 17:30:17 [main] INFO  DriverFactory - Browser launched and maximized
+2026-04-21 17:30:19 [main] INFO  CommonSteps - User is on Urban Ladder application
+2026-04-21 17:30:19 [main] INFO  BookshelvesSteps - Step: user searches bookshelves
+2026-04-21 17:30:19 [main] INFO  BookshelvesPage - ************ TEST CASE 1: BOOKSHELVES ************
+2026-04-21 17:30:19 [main] INFO  BookshelvesPage - Searching for Bookshelves
+2026-04-21 17:30:19 [main] INFO  BookshelvesPage - Applying filters: Storage Type = Open, Max Price = 15000
+2026-04-21 17:30:21 [main] INFO  BookshelvesPage - Printing first three bookshelf products
+2026-04-21 17:30:21 [main] INFO  BookshelvesPage - Product: Paxton Bookshelf in Amber Walnut Finish | Price: ₹7,999
+2026-04-21 17:30:21 [main] INFO  BookshelvesPage - Product: Tetris Solid Wood Bookshelf in Walnut Finish | Price: ₹6,999
+2026-04-21 17:30:21 [main] INFO  BookshelvesPage - Product: Amy Bookshelf in Columbian Walnut Finish | Price: ₹1,985
+2026-04-21 17:30:21 [main] INFO  Hooks - Scenario PASSED: Verify first three bookshelves
+2026-04-21 17:30:21 [main] INFO  BaseTest - TestNG teardown: closing browser
+2026-04-21 17:30:21 [main] INFO  DriverFactory - Closing browser
+2026-04-21 17:30:23 [main] INFO  Hooks - ===== SCENARIO FINISHED =====
+2026-04-21 17:30:23 [main] INFO  Hooks - ===== STARTING SCENARIO: Print sofa categories =====
+2026-04-21 17:30:23 [main] INFO  BaseTest - TestNG setup: launching browser
+2026-04-21 17:30:23 [main] INFO  DriverFactory - Initializing ChromeDriver
+2026-04-21 17:30:26 [main] INFO  DriverFactory - Browser launched and maximized
+2026-04-21 17:30:28 [main] INFO  CommonSteps - User is on Urban Ladder application
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - ************ TEST CASE 2: SOFA MENU ************
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Hovering on Sofas & Recliners menu
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Fabric Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Customizable Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Wooden Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Leatherette Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Leather Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: L Shaped Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: 3 Seater Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: 2 Seater Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: 1 Seater Sofas
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: 1 Seater Recliners
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: 2 Seater Recliners
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: 3 Seater Recliners
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Motorized Recliners
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Sofa Cum Beds
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Diwans
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Oasis Collection
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Terra Collection
+2026-04-21 17:30:28 [main] INFO  SofaMenuPage - Sofa Category: Astra Collection
+2026-04-21 17:30:28 [main] INFO  Hooks - Scenario PASSED: Print sofa categories
+2026-04-21 17:30:28 [main] INFO  BaseTest - TestNG teardown: closing browser
+2026-04-21 17:30:28 [main] INFO  DriverFactory - Closing browser
+2026-04-21 17:30:30 [main] INFO  Hooks - ===== SCENARIO FINISHED =====
+2026-04-21 17:30:30 [main] INFO  Hooks - ===== STARTING SCENARIO: Verify gift card invalid email =====
+2026-04-21 17:30:30 [main] INFO  BaseTest - TestNG setup: launching browser
+2026-04-21 17:30:30 [main] INFO  DriverFactory - Initializing ChromeDriver
+2026-04-21 17:30:33 [main] INFO  DriverFactory - Browser launched and maximized
+2026-04-21 17:30:35 [main] INFO  CommonSteps - User is on Urban Ladder application
+2026-04-21 17:30:35 [main] INFO  GiftCardPage - ************ TEST CASE 3: GIFT CARD ************
+2026-04-21 17:30:35 [main] INFO  GiftCardPage - Loading test data from Excel
+2026-04-21 17:30:36 [main] INFO  GiftCardPage - Clicking Gift Card link
+2026-04-21 17:30:38 [main] INFO  GiftCardPage - Gift Card URL: https://urbanladder.woohoo.in/en-gb/digital/urban-ladder-e-gift-card
+2026-04-21 17:30:38 [main] INFO  GiftCardPage - Gift Card Title: Gift Cards
+2026-04-21 17:30:44 [main] ERROR GiftCardPage - Validation Error Message: Enter valid Email ID.
+2026-04-21 17:30:44 [main] INFO  Hooks - Scenario PASSED: Verify gift card invalid email
+2026-04-21 17:30:44 [main] INFO  BaseTest - TestNG teardown: closing browser
+2026-04-21 17:30:44 [main] INFO  DriverFactory - Closing browser
+2026-04-21 17:30:48 [main] INFO  Hooks - ===== SCENARIO FINISHED =====

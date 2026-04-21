@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+
+    <Properties>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n
+        </Property>
+        <Property name="LOG_FILE">logs/automation.log</Property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="FileLogger"
+                     fileName="${LOG_FILE}"
+                     filePattern="logs/automation-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="FileLogger" />
+        </Root>
+    </Loggers>
+
+</Configuration>
